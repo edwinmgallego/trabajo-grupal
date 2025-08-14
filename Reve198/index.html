@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Mi Perfil Profesional</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mi perfil Profesional</h1>
+    </header>
+    <main>
+        <section class="informacion-personal">
+            <h2>👤 Información Personal</h2>
+            <p>📌 Nombre: <strong>Giovanny Gomez</strong></p>
+            <p>💻 Profesión: <strong>Tecnico en sistemas</strong></p>
+            <p>🌎 Ubicación: <strong>Cali, Colombia</strong></p>
+            <p>✉️ Email: <strong>giovanny_gomez2@hotmail.com</strong></p>
+            <p class="telefono-con-whatsapp">📱 Teléfono: <strong>123-456-7890 / </strong>
+                <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=573187344448&text=Hola"
+                    target="_blank">Escribeme al WhatsApp</a>
+                <img src="./Images/Whatsapp icono.ico" alt="WhatsApp" class="whatsapp-icono">
+            </p>
+            <img class="perfil-imagen" src="./Images/Tecnico en sistemas.avif" alt="Tecnico en sistemas">
+        </section>
+        <section class="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p class="Descripcion"><strong>Técnico en sistemas</strong> con sólidos conocimientos en infraestructura TI
+                y resolución de problemas técnicos. Apasionado por la innovación tecnológica y el aprendizaje continuo,
+                con especial interés en redes, soporte técnico y seguridad informática. Comprometido con brindar
+                soluciones eficientes y mantenerme actualizado en las últimas tendencias del sector.
+            </p>
+        </section>
+        <section class="habilidades">
+            <h2>Mis Habilidades</h2>
+            <ul>
+                <li>Instalación de sistemas operativos</li>
+                <li>Mantenimiento de hardware</li>
+                <li>Redes básicas</li>
+                <li>Soporte técnico</li>
+                <li>Resolución de problemas</li>
+                <li>Seguridad informática básica</li>
+            </ul>
+        </section>
+        <div class="opciones">
+            <h2>Contáctame</h2>
+            <form class="formulario-contacto">
+                <label for="Nombre">Nombre: </label><br>
+                <input type="text" id="Nombre" name="Nombre" required placeholder="Escribe tu nombre: "><br>
+                <label for="Email">Correo Electrónico: </label><br>
+                <input type="email" id="Email" name="Email" required placeholder="Escribe tu correo electrónico: "><br>
+                <label for="Asunto">Asunto: </label><br>
+                <select id="Asunto" name="Asunto" required>
+                    <option value="" disabled selected>¿En qué puedo ayudarte?</option>
+                    <option value="Consulta">Consulta</option>
+                    <option value="Oferta de Trabajo">Oferta de Trabajo</option>
+                    <option value="Solicitud de Soporte">Solicitud de Soporte</option>
+                </select>
+                <label for="Mensaje">Mensaje: </label><br>
+                <textarea id="Mensaje" name="Mensaje" rows="4" required
+                    placeholder="Escribe tu mensaje aquí..."></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 Mi Perfil Profesional. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
