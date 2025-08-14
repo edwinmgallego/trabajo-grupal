@@ -1,0 +1,45 @@
+body{
+   background-color: #A1EDE1;
+   font-family: "Permanent Marker", cursive;
+   font-weight: 1000;
+   font-size: xx-large;
+   color: black;
+}
+h1{
+    font-family: "Permanent Marker", cursive;
+   font-weight: 1000;
+   font-size: xx-large;
+   color: black;
+   text-align: center;
+}
+
+.header{
+    background-color: #C3DED6;
+}
+
+.logo{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: none;
+}
+
+.nav{
+    width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+main{
+    font-family: "Atma", system-ui;
+    font-style: normal;
+    font-size: medium;
+    font-weight: 400;
+    background-color: #CCFFF5;
+}
+
+.subrayado{
+    text-decoration: underline;
+}
