@@ -33,15 +33,35 @@ body{
     justify-self: end;
 }
 
-.projects{
+.contenedor-projects{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.projects{
+    border: solid #e8e8e8;
+    padding: 100px;
+}
+
+.enlaces{
+    font-size: 1.3em;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none;
     background-color: #11111144;
 }
 
 footer{
     background: #ffe4c4;
+}
+
+@media(max-width:450px) {
+    .nav-bar{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
