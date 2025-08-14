@@ -1,15 +1,21 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family:"Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
   margin: 0;
-}
 
+}
+.logo{
+  width: 100px;
+  height: auto;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: #222;
+  background-color: #364BE7;
   color: #fff;
+  border-radius: 8px;
 }
 
 .nav-links {
@@ -58,9 +64,17 @@ body {
 
 .card {
   padding: 1rem;
-  background: #ddd;
-  border-radius: 5px;
+  background: #364BE7;
+  border-radius:20px;
   text-align: center;
+  color: #f5f5f5;
+
+}
+
+.imagen-avatar img{
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
 }
 
 /* Desktop */
