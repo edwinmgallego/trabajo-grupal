@@ -1,66 +1,61 @@
-/* ===== Estilos generales ===== */
-body {
+/*==== Estilos generares ====*/
+body{
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial,  sans-serif;
 }
-
-header {
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #333;
     color: white;
     padding: 10px 20px;
-}
 
-.logo {    font-size: 1.2em;
+}
+.logo{ font-size: 1.2em;
     font-weight: bold;
-}
 
-/* ===== Menú ===== */
-.hamburger {
+}
+/* ===== menu =====*/
+.hamburger{
     background: none;
     border: none;
     font-size: 1.5em;
     color: white;
     cursor: pointer;
 }
-
-.nav {
+.nav{
     position: fixed;
     top: 0;
-    right: -200px;
+    right: 200px;
     height: 100%;
     width: 200px;
     background: #222;
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
-    transition: right 0.3s ease-in-out;
+    padding: top 60px;
+    transition: rihg 0.3s ease-in-out;
 }
-
-.nav a {
+.nav{
     color: white;
     padding: 15px;
     text-decoration: none;
     border-bottom: 1px solid #444;
-}
 
-.nav a:hover {
+}
+.nav a:hover{
     background: #444;
 }
-
-/* ===== Clase activa para mostrar menú ===== */
-.nav.active {
-    right: 0;
+/* ==== clase activa para mostrar el menu ====*/
+.nav.active{
+right: 0;
 }
-
-/* ===== Modo desktop ===== */
-@media (min-width: 768px) {
-    .hamburger {
+/* ==== modo desktop ====*/
+@media (min-widht: 768px){
+    .hamburger{
         display: none;
     }
-    .nav {
+    .nav{
         position: static;
         flex-direction: row;
         background: none;
@@ -70,8 +65,9 @@ header {
         right: 0;
         transition: none;
     }
-    .nav a {
+    .nav a{
         border: none;
-        padding: 0 15px;
+        padding: 0.15px;
     }
+    
 }
