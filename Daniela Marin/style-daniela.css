@@ -14,7 +14,8 @@ h1{
 }
 
 .header{
-    background-color: #C3DED6;
+    background-color: #CCFFF5;
+    text-decoration: none;
 }
 
 .logo{
@@ -31,6 +32,13 @@ h1{
   display: flex;
   justify-content: space-between;
 }
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color:blue; /*cambia de color al pasar el mouse*/
+}
 
 main{
     font-family: "Atma", system-ui;
@@ -42,4 +50,31 @@ main{
 
 .subrayado{
     text-decoration: underline;
+}
+
+.SobreMi p{
+    margin: 0;
+}
+.exp p{
+    margin: 0;
+}
+.fecha{
+    text-decoration: underline;
+}
+
+.lista-contacto {
+  list-style: none;      /* Quita los puntos */
+  padding: 0;            /* Elimina espaciado interno */
+  margin: 0;             /* Elimina espacio extra */
+  display: flex;         /* Los pone en línea horizontal */
+  gap: 20px;             /* Espacio entre elementos */
+}
+.lista-contacto li a {
+  text-decoration: none; /* Quita el subrayado */
+  color: black;          /* Color del texto */
+  font-weight: bold;     /* Negrita */
+}
+
+.lista-contacto li a:hover {
+  color: blue;           /* Cambia color al pasar el mouse */
 }
