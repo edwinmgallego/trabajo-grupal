@@ -1,0 +1,67 @@
+/**
+* 
+* Color fondo 1: #ffe4c4;
+* Color fondo 2: 
+* 
+*/
+
+body{
+    margin: 0;
+}
+
+.titulos{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.titulo-dos{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+
+.nav-bar{
+    background: #ffe4c4;
+    display: grid;
+    grid-template-columns: auto 50%;
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-self: end;
+}
+
+.contenedor-projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.projects{
+    border: solid #e8e8e8;
+    padding: 100px;
+}
+
+.enlaces{
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #11111144;
+}
+
+footer{
+    background: #ffe4c4;
+}
+
+@media(max-width:450px) {
+    .nav-bar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
